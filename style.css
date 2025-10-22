@@ -16,8 +16,10 @@ body {
   padding: 20px;
   max-width: 500px;
   width: 90%;
+  text-align: center;
   display: flex;
   flex-direction: column;
+  gap: 15px;
 }
 
 .profile-avatar img {
@@ -78,11 +80,9 @@ body {
 }
 
 /* Responsive Layout */
-@media (min-width: 768px) {
+@media (max-width: 400px) {
   .profile-card {
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 20px;
+    padding: 15px; /*lessen padding on small screens */
   }
 
   .profile-avatar img {
