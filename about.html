@@ -14,8 +14,9 @@
         </nav>
 
     <main data-testid="test-about-page">
-        <section data-testid="test-about-bio">
-            <h2>My Bio</h2>
+    <div class="about-container">
+        <section data-testid="test-about-bio" aria-labelledby="bio-heading">
+            <h2 id="bio-heading">My Bio</h2>
             <p>I'm Mercy Nyong, a Frontend Developer passionate about building accessible and interactive user experience.</p>
         </section>
 
@@ -30,7 +31,7 @@
         </section>
 
         <section data-testid="test-about-future-note">
-            <hz>Note to My Future Self</hz>
+            <h2>note to My Future Self</h2>
             <p>Stay consistent, keep learning, and dont be afraid to ask for help.</p>
         </section>
 
@@ -38,6 +39,7 @@
             <h2>Extra Thoughts</h2>
             <p>This internship is an amazing opportunity to grow and connect with other developers!</p>
         </section>
+    </div>
     </main>
     </body>
 </html>
