@@ -6,6 +6,8 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
+  padding-top: 60px; /* to push content below the navbar */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .profile-card {
@@ -77,6 +79,67 @@ body {
 .profile-dislikes ul {
   list-style: circle;
   padding-left: 20px;
+}
+
+main {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #4a90e2;   /* blue bar */
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form Styles */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357abd;
 }
 
 /* Responsive Layout */

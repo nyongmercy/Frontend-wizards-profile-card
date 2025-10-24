@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <main>
+    <h2>Contact Us</h2>
+    <form id="contactForm" data-testid="test-contact-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" data-testid="test-contact-name" required>
+      <p id="error-name" class="error" data-testid="test-contact-error-name"></p>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" data-testid="test-contact-email" required>
+      <p id="error-email" class="error" data-testid="test-contact-error-email"></p>
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" data-testid="test-contact-subject" required>
+      <p id="error-subject" class="error" data-testid="test-contact-error-subject"></p>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" data-testid="test-contact-message" required></textarea>
+      <p id="error-message" class="error" data-testid="test-contact-error-message"></p>
+
+      <button type="submit" data-testid="test-contact-submit">Submit</button>
+
+      <p id="success" class="success" data-testid="test-contact-success" style="display: none;">
+        Message sent successfully!
+      </p>
+    </form>
+  </main>
+</body>
+</html>
