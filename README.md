@@ -30,7 +30,7 @@ Features:
 
 * Responsive design across mobile, tablet, and desktop
 
-* Semantic HTML <article>, <header>, <section>, <nav>, <ul>, <figure>
+* Use semantic HTML tags like `<header>`, `<section>`, `<nav>`, `<ul>`, and `<figure>`.
 
 Each element includes the required data-testid for automated testing.
 
