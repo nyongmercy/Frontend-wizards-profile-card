@@ -16,7 +16,7 @@ The project is built using **HTML, CSS, and Vanilla JavaScript** following acces
 
 # 🧩 Pages Overview
 
-## 🏠 1. Home (Profile Card)
+## 🏠 Home (Profile Card)
 
 **File**: index.html
 
@@ -36,31 +36,31 @@ Each element includes the required data-testid for automated testing.
 
 ---------------------------------------------------------------------------------------------------
 
-✉️ ##Contact Us Page
+## ✉️ Contact Us Page
 
 **File:** contact.html
 
 Includes a form with built-in **JavaScript validation.**
 
-##Validation Rules:
+## Validation Rules:
 
-* All fields are required
+  * All fields are required
 
-* Email must follow name@example.com format
+  * Email must follow name@example.com format
 
-* Message must be at least 10 characters
+  * Message must be at least 10 characters
 
-* On success, shows a confirmation message
+  * On success, shows a confirmation message
 
-##Accessibility:
+## Accessibility:
 
-* Each input has an associated <label for="...">
-* Error messages use aria-describedby
-* Fully keyboard navigable
+  * Each input has an associated <label for="...">
+  * Error messages use aria-describedby
+  * Fully keyboard navigable
 
 ---------------------------------------------------------------------------------------------------
 
-👩‍💻 ##About Me Page
+## 👩‍💻 About Me Page
 
 **File:** about.html
 
@@ -68,28 +68,28 @@ A reflective page describing personal goals and growth areas.
 
 Includes sections for:
 
-* Bio — data-testid="test-about-bio"
-* Goals — data-testid="test-about-goals"
-* Areas of Low Confidence — data-testid="test-about-confidence"
-* Note to Future Self — data-testid="test-about-future-note"
-* Extra Thoughts — data-testid="test-about-extra"
+  * Bio — data-testid="test-about-bio"
+  * Goals — data-testid="test-about-goals"
+  * Areas of Low Confidence — data-testid="test-about-confidence"
+  * Note to Future Self — data-testid="test-about-future-note"
+  * Extra Thoughts — data-testid="test-about-extra"
 
-Uses proper **semantic HTML**: "<main>, <section>, <h2>, <p>".
-
----------------------------------------------------------------------------------------------------
-
-⚙️ ##Technologies Used
-
-* HTML5 (Semantic markup)
-* CSS3 (Flexbox, Responsive Design)
-* JavaScript (Vanilla) (Form validation, dynamic time updates)
+Uses proper **semantic HTML**: main, section, h2, p.
 
 ---------------------------------------------------------------------------------------------------
 
-📁 #Project Structure
+## ⚙️ Technologies Used
+
+  * HTML5 (Semantic markup)
+  * CSS3 (Flexbox, Responsive Design)
+  * JavaScript (Vanilla) (Form validation, dynamic time updates)
+
+---------------------------------------------------------------------------------------------------
+
+# 📁 Project Structure
 
 frontend-wizards-stage1/
-│
+
 ├── index.html    ---      Profile card homepage
 ├── contact.html    ---    Contact form with validation
 ├── about.html      ---    About Me page
@@ -99,25 +99,25 @@ frontend-wizards-stage1/
 
 ---------------------------------------------------------------------------------------------------
 
-🧪 ##Testing
+## 🧪 Testing
 
 All required data-testid attributes are implemented for automated testing.
 You can inspect elements or use browser DevTools to confirm.
 
 Example:
 
-'<h2 data-testid="test-user-name">Mercy Nyong</h2>'
-'<p data-testid="test-user-bio">Frontend Developer...</p>'
+h2 data-testid="test-user-name">Mercy Nyong</h2
+p data-testid="test-user-bio">Frontend Developer...</p
 
 ---------------------------------------------------------------------------------------------------
 
-🌐 ##Live Demo
+## 🌐 Live Demo
 
-Netlify Deployment: [https://frontendwizards-profilecard.netlify.app](https://frontendwizards-profilecard.netlify.app)
+**Netlify Deployment:** [https://frontendwizards-profilecard.netlify.app](https://frontendwizards-profilecard.netlify.app)
 
 ---------------------------------------------------------------------------------------------------
 
-🖥️ #How to Run Locally
+# 🖥️ How to Run Locally
 1. Clone the repository:
 
 git clone https://github.com/<your-username>/frontend-wizards-stage1.git
@@ -132,7 +132,7 @@ That’s it! 🎉
 
 ---------------------------------------------------------------------------------------------------
 
-🧑‍🎓 #Author
+# 🧑‍🎓 Author
 
 **Name:** Mercy Nyong
 
@@ -140,5 +140,4 @@ That’s it! 🎉
 
 **Internship:** HNG Frontend — Stage 1
 
-**GitHub:** [github.com/<your-username>](github.com/<your-username)
-
+**GitHub:** [github.com/nyongmercy](https://github.com/nyongmercy)
