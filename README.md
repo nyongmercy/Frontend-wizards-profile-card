@@ -1,4 +1,4 @@
-#🧙‍♀️ #Frontend Wizards — Stage 1 Task
+# 🧙‍♀️Frontend Wizards — Stage 1 Task
 
 🚀 ##Overview
 
