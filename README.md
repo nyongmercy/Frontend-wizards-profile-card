@@ -105,8 +105,8 @@ You can inspect elements or use browser DevTools to confirm.
 
 Example:
 
-h2 data-testid="test-user-name">Mercy Nyong</h2
-p data-testid="test-user-bio">Frontend Developer...</p
+`<h2 data-testid="test-user-name">Mercy Nyong</h2>`
+`<p data-testid="test-user-bio">Frontend Developer...</p>`
 
 ---------------------------------------------------------------------------------------------------
 
@@ -125,7 +125,7 @@ git clone https://github.com/<your-username>/frontend-wizards-stage1.git
 
 cd frontend-wizards-stage1
 
-3. Open any file (index.html, about.html, or contact.html) in your browser.
+3. Open any file (`index.html`, `about.html`, or `contact.html`) in your browser.
 
 That’s it! 🎉
 
