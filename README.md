@@ -16,7 +16,7 @@ The project is built using **HTML, CSS, and Vanilla JavaScript** following acces
 
 # 🧩 Pages Overview
 
-🏠 1. ##Home (Profile Card)
+## 🏠 1. Home (Profile Card)
 
 **File**: index.html
 
