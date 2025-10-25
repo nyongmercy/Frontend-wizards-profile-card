@@ -1,6 +1,6 @@
 # 🧙‍♀️Frontend Wizards — Stage 1 Task
 
-🚀 ##Overview
+## 🚀Overview
 
 This project expands into **a multi-page responsive web app** that includes:
 
@@ -14,7 +14,7 @@ The project is built using **HTML, CSS, and Vanilla JavaScript** following acces
 
 ---------------------------------------------------------------------------------------------------
 
-🧩 #Pages Overview
+# 🧩 Pages Overview
 
 🏠 1. ##Home (Profile Card)
 
