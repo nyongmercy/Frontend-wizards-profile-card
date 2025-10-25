@@ -43,7 +43,6 @@ Each element includes the required data-testid for automated testing.
 Includes a form with built-in **JavaScript validation.**
 
 ## Validation Rules:
-
   * All fields are required
 
   * Email must follow name@example.com format
