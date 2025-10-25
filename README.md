@@ -73,7 +73,7 @@ Includes sections for:
   * Note to Future Self — data-testid="test-about-future-note"
   * Extra Thoughts — data-testid="test-about-extra"
 
-Uses proper **semantic HTML**: main, section, h2, p.
+Uses proper **semantic HTML**: `<main>`, `<section>`, `<h2>`, `<p>`.
 
 ---------------------------------------------------------------------------------------------------
 
