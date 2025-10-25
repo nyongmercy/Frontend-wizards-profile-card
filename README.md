@@ -89,8 +89,8 @@ Uses proper **semantic HTML**: `<main>`, `<section>`, `<h2>`, `<p>`.
 
 ```frontend-wizards-stage1/
 
-├── index.html    ---      Profile card homepage
-├── contact.html    ---    Contact form with validation
+├── index.html         # Profile card homepage
+├── contact.html        # Contact form with validation
 ├── about.html      ---    About Me page
 ├── style.css      ---     Shared styling across all pages
 ├── script.js      ---     Handles dynamic time & form validation
